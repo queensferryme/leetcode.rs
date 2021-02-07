@@ -1,7 +1,7 @@
+use super::Solution;
+
 use std::cmp::max;
 use std::collections::HashMap;
-
-use super::Solution;
 
 impl Solution {
     #[allow(dead_code)]
