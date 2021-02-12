@@ -1,6 +1,7 @@
 use super::Solution;
 
 impl Solution {
+    #[allow(dead_code)]
     pub fn my_atoi(string: String) -> i32 {
         let (mut result, mut sign, mut state) = (0i64, 1, 1);
 

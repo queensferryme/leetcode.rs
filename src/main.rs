@@ -6,5 +6,4 @@ mod solutions;
 
 fn main() {
     Solution::solve();
-    println!("{}", Solution::my_atoi(String::from("     -98")));
 }
