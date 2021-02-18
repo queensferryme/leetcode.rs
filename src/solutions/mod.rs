@@ -16,4 +16,5 @@ mod s0008_string_to_integer_atoi;
 mod s0009_palindrome_number;
 mod s0011_container_with_most_water;
 mod s0012_integer_to_roman;
+mod s0013_roman_to_integer;
 mod utility;
