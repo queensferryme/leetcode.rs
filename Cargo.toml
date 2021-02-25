@@ -1,5 +1,5 @@
 [package]
-name = "Leetcode"
+name = "leetcode"
 version = "0.1.0"
 authors = ["Queensferry <queensferry.me@gmail.com>"]
 edition = "2018"
