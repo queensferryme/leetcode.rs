@@ -20,4 +20,5 @@ mod s0012_integer_to_roman;
 mod s0013_roman_to_integer;
 mod s0014_longest_common_prefix;
 mod s0015_3sum;
+mod s5697_check_if_binary_string_has_at_most_one_segment_of_ones;
 mod utility;
