@@ -25,4 +25,5 @@ mod s5698_minimum_elements_to_add_to_form_a_given_sum;
 mod s5699_number_of_restricted_paths_from_first_to_last_node;
 mod s5701_check_if_one_string_swap_can_make_strings_equal;
 mod s5702_find_center_of_star_graph;
+mod s5703_maximum_average_pass_ratio;
 mod utility;
