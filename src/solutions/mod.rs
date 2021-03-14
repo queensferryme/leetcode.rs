@@ -23,4 +23,5 @@ mod s0015_3sum;
 mod s5697_check_if_binary_string_has_at_most_one_segment_of_ones;
 mod s5698_minimum_elements_to_add_to_form_a_given_sum;
 mod s5699_number_of_restricted_paths_from_first_to_last_node;
+mod s5701_check_if_one_string_swap_can_make_strings_equal;
 mod utility;
