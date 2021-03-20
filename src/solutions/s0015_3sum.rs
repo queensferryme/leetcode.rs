@@ -1,15 +1,5 @@
 use super::Solution;
 
-macro_rules! next {
-    ( $numbers:expr, $index:expr, $step:expr ) => {
-        let value = $numbers[$index];
-        while $numbers.get($index) == Some(&value) {
-            $index = ($index as i32 + $step) as usize;
-        }
-        $index = if $index == usize::MAX { 0 } else { $index };
-    };
-}
-
 impl Solution {
     #[allow(dead_code)]
     pub fn three_sum(mut numbers: Vec<i32>) -> Vec<Vec<i32>> {
@@ -24,16 +14,25 @@ impl Solution {
                 let sum = numbers[left] + numbers[center] + numbers[right];
                 if sum == 0 {
                     result.push(vec![numbers[left], numbers[center], numbers[right]]);
-                    next!(numbers, center, 1);
+                    center = Solution::next(&numbers, &center, 1);
                 } else if sum < 0 {
-                    next!(numbers, center, 1);
+                    center = Solution::next(&numbers, &center, 1);
                 } else {
-                    next!(numbers, right, -1);
+                    right = Solution::next(&numbers, &right, -1);
                 }
             }
-            next!(numbers, left, 1);
+            left = Solution::next(&numbers, &left, 1);
         }
 
         return result;
+    }
+
+    fn next(numbers: &Vec<i32>, index: &usize, step: i32) -> usize {
+        let mut index = *index;
+        let value = numbers[index];
+        while numbers.get(index) == Some(&value) {
+            index = (index as i32 + step) as usize;
+        }
+        return if index == usize::MAX { 0 } else { index };
     }
 }
