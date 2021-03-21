@@ -29,4 +29,5 @@ mod s5701_check_if_one_string_swap_can_make_strings_equal;
 mod s5702_find_center_of_star_graph;
 mod s5703_maximum_average_pass_ratio;
 mod s5704_maximum_score_of_a_good_subarray;
+mod s5709_maximum_ascending_subarray_sum;
 mod utility;
