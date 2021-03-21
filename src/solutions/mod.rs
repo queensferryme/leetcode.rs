@@ -30,4 +30,5 @@ mod s5702_find_center_of_star_graph;
 mod s5703_maximum_average_pass_ratio;
 mod s5704_maximum_score_of_a_good_subarray;
 mod s5709_maximum_ascending_subarray_sum;
+mod s5710_number_of_orders_in_the_backlog;
 mod utility;
