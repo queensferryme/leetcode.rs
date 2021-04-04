@@ -33,4 +33,5 @@ mod s5709_maximum_ascending_subarray_sum;
 mod s5710_number_of_orders_in_the_backlog;
 mod s5711_maximum_value_at_a_given_index_in_a_bounded_array;
 mod s5722_truncate_sentence;
+mod s5723_finding_the_users_active_minutes;
 mod utility;
