@@ -35,4 +35,5 @@ mod s5711_maximum_value_at_a_given_index_in_a_bounded_array;
 mod s5722_truncate_sentence;
 mod s5723_finding_the_users_active_minutes;
 mod s5724_minimum_absolute_sum_difference;
+mod s5725_number_of_different_subsequences_gcds;
 mod utility;
