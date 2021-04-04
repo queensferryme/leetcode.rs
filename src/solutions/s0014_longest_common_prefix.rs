@@ -16,7 +16,7 @@ impl Solution {
                 if ch != string.get(length) || ch.is_none() {
                     return String::from(match std::str::from_utf8(&strings[0][0..length]) {
                         Ok(v) => v,
-                        Err(e) => panic!(e),
+                        Err(e) => panic!("{}", e),
                     });
                 }
             }
