@@ -23,6 +23,7 @@ mod s0015_3sum;
 mod s0016_3sum_closest;
 mod s0017_letter_combinations_of_a_phone_number;
 mod s0020_valid_parentheses;
+mod s0021_merge_two_sorted_lists;
 mod s5697_check_if_binary_string_has_at_most_one_segment_of_ones;
 mod s5698_minimum_elements_to_add_to_form_a_given_sum;
 mod s5699_number_of_restricted_paths_from_first_to_last_node;
