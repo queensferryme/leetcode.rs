@@ -39,4 +39,5 @@ mod s5723_finding_the_users_active_minutes;
 mod s5724_minimum_absolute_sum_difference;
 mod s5725_number_of_different_subsequences_gcds;
 mod s5734_check_if_the_sentence_is_pangram;
+mod s5735_maximum_ice_cream_bars;
 mod utility;
