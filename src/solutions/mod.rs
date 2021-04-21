@@ -22,6 +22,7 @@ mod s0014_longest_common_prefix;
 mod s0015_3sum;
 mod s0016_3sum_closest;
 mod s0017_letter_combinations_of_a_phone_number;
+mod s0019_remove_nth_node_from_end_of_list;
 mod s0020_valid_parentheses;
 mod s0021_merge_two_sorted_lists;
 mod s5697_check_if_binary_string_has_at_most_one_segment_of_ones;
