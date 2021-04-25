@@ -41,6 +41,7 @@ mod s5724_minimum_absolute_sum_difference;
 mod s5725_number_of_different_subsequences_gcds;
 mod s5734_check_if_the_sentence_is_pangram;
 mod s5735_maximum_ice_cream_bars;
+mod s5738_sum_of_digits_in_base_k;
 mod s5739_frequency_of_the_most_frequent_element;
 mod s5740_longest_substring_of_all_vowels_in_order;
 mod utility;
