@@ -46,4 +46,5 @@ mod s5739_frequency_of_the_most_frequent_element;
 mod s5740_longest_substring_of_all_vowels_in_order;
 mod s5746_minimum_distance_to_the_target_element;
 mod s5747_splitting_a_string_into_descending_consecutive_values;
+mod s5750_maximum_population_year;
 mod utility;
