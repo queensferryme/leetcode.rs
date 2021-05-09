@@ -47,4 +47,5 @@ mod s5740_longest_substring_of_all_vowels_in_order;
 mod s5746_minimum_distance_to_the_target_element;
 mod s5747_splitting_a_string_into_descending_consecutive_values;
 mod s5750_maximum_population_year;
+mod s5751_maximum_distance_between_a_pair_of_values;
 mod utility;
